@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .main-container {
+            height: 100%;
+            overflow-y: scroll;
+        }
+
+        .main-events {
+            background-color: #ffffff;
+            float: left;
+            padding: 14px 16px;
+        }
+
+        h1 {
+            color: #ac9454;
+            margin: 0;
+            font-size: inherit;
+        }
+
+        nav {
+            background-color: #ffffff;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: right;
+            display: block;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            color: black;
+        }
+
+        nav a#home {
+            color: rgb(125, 107, 57);
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .background-image {
+            background-image: url('C:\Users\Shaswat\Desktop\Assignment\images\image1.png'); /* Replace 'image1.png' with the actual path to your image */
+            background-size: cover;
+            background-position: center;
+            height: 300px; /* Set the fixed height for the background image */
+            position: relative;
+            text-align: center;
+            color: white; /* Set the text color on top of the image */
+            padding: 50px; /* Add padding for better visibility */
+        }
+
+        .overlay-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="main-container">
+    <div class="background-image">
+        <div class="overlay-text">
+            Your Text Goes Here
+        </div>
+    </div>
+
+    <div class="main-events">
+        <h1>MAIN EVENTS</h1>
+    </div>
+
+    <nav>  
+        <a id="contact" href="#contact">Contact</a>
+        <a id="gallery" href="#gallery">Gallery</a>
+        <a id="about" href="#about">About</a>
+        <a id="services" href="#services">Services</a>
+        <a id="home" href="#home">Home</a>
+    </nav>
+
+    <!-- Your page content goes here -->
+</div>
+
+</body>
+</html>
