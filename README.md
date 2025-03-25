@@ -19,7 +19,7 @@ Feel free to open issues or pull requests if you have suggestions for improvemen
 
 ## Contact
 
-For any inquiries, you can reach me through the [Contact Form](https://shaas1704.github.io/#contact) on my website or directly via email at shaswat.srivastava.404@gmail.com.
+For any inquiries, you can reach me through the [Contact Form](https://shaas1704.github.io/#contact) on my website or directly via email at shasw.srivast@gmail.com.
 
 ## License
 
